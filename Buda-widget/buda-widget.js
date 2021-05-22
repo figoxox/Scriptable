@@ -78,10 +78,10 @@ async function createCriptoStack(criptoStack, marketId) {
   
   if (marketId.localeCompare("btc-clp") == 0) {
     textTitle = "Bitcoin"
-    iconUrl = "https://icons-for-free.com/download-icon-btc+coin+crypto+icon-1320162856490699468_512.png"
+    iconUrl = "https://github.com/figoxox/Scriptable/blob/master/images/bitcoin-icon.png"
   } else if (marketId.localeCompare("eth-clp") == 0) {
     textTitle = "Etherum"
-    iconUrl = "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/512/Ethereum-ETH-icon.png"
+    iconUrl = "https://github.com/figoxox/Scriptable/blob/master/images/eth-icon.png"
   }  
   
   // Get ticker for Cryptocoins
