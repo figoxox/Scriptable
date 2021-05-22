@@ -78,10 +78,10 @@ async function createCriptoStack(criptoStack, marketId) {
   
   if (marketId.localeCompare("btc-clp") == 0) {
     textTitle = "Bitcoin"
-    iconUrl = "https://github.com/figoxox/Scriptable/blob/master/images/bitcoin-icon.png"
+    iconUrl = "https://github.com/figoxox/Scriptable/blob/master/images/bitcoin-icon.png?raw=true"
   } else if (marketId.localeCompare("eth-clp") == 0) {
     textTitle = "Etherum"
-    iconUrl = "https://github.com/figoxox/Scriptable/blob/master/images/eth-icon.png"
+    iconUrl = "https://github.com/figoxox/Scriptable/blob/master/images/eth-icon.png?raw=true"
   }  
   
   // Get ticker for Cryptocoins
